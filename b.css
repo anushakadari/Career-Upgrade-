@@ -1,0 +1,144 @@
+body {
+    background-color: #fff;
+    color: black;
+    font: normal 15px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+p {
+    line-height: 20px;
+    margin-bottom: 20px;
+	color:black;
+}
+h1 {
+    font-family: 'Crete Round', serif;
+    font-weight: bold;
+    color: black;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+h2 {
+    font-weight: 300;
+    color: black;
+    font-size: 55px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+h3 {
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+h4 {
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+h5 {
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: black;
+}
+strong {
+    font-weight: bold;
+}
+small {
+    font-size: 13px;
+    color: black;
+    font-style: italic;
+}
+.clear {
+    clear: both;
+}
+.wrapper {
+    margin: 0 auto;
+    padding: 0 10px;
+    width: 940px;
+}
+header {
+    height: 120px;
+}
+header h1 {
+    float: left;
+    margin-top: 32px;
+}
+header h1 .color {
+    color: black;
+}
+header nav {
+    float: right;
+}
+header nav ul li {
+    float: left;
+    display: inline-block;
+    margin-top: 50px;
+}
+header nav ul li a {
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin-right: 20px;
+}
+#hero-image {
+    height: 750px;
+    padding-top: 1px;
+	background-image:url("https://th.bing.com/th/id/R.974a5b12174eb15ae1cd23b471ff3411?rik=AWAr4HJjbFejaA&riu=http%3a%2f%2fjobs.makeitmsp.org%2fimages%2fbackground-index.png&ehk=310z%2fLR1TFRRWNZFCw%2bf9RIvJiIg9IWQYY%2b%2bzUTOuuI%3d&risl=&pid=ImgRaw&r=0");
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+	background-attachment:fixed;
+}
+#hero-image h2 {
+    margin: 180px 0 40px 0;
+}
+.button-1 {
+    display: block;
+    text-align: center;
+    background: black;
+    border-radius: 3px;
+    color: #fff;
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+    line-height: 50px;
+    margin: 0 auto;
+}
+.button-1:hover {
+    background-color: black;
+    color: teal;
+}
+	
+.column {
+		float: left;
+		width: 25%;
+		padding-left: 45px;
+	}
+
+.row::after {
+		content: "";
+		clear: both;
+		display: table;
+	}
+h4{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		color:white;
+		padding: 5px;
+		border: 2px solid grey;
+		border-radius: 9px;
+		background-color: brown;
+		color:white;
+	}
